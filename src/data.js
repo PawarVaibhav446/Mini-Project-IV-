@@ -1,21 +1,21 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://i.ibb.co/XsdmR2c/1.png",
+    img: "https://www.linkpicture.com/q/cake-g17e898ccd_1920.jpg",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON CAKES! GET FLAT 10% OFF FOR GSTIANS.",
     bg: "f5fafd",
   },
   {
     id: 2,
-    img: "https://i.ibb.co/DG69bQ4/2.png",
+    img: "https://www.linkpicture.com/q/bake-g8a0f8c867_1920_1.jpg",
     title: "AUTUMN SALE",
     desc: "DON'T COMPROMISE ON CAKES! GET FLAT 10% OFF FOR GSTIANS.",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/cXFnLLV/3.png",
+    img: "https://www.linkpicture.com/q/david-holifield-kPxsqUGneXQ-unsplash.jpg",
     title: "WINTER SALE",
     desc: "DON'T COMPROMISE ON CAKES! GET FLAT 10% OFF FOR GSTIANS.",
     bg: "fbf0f4",
@@ -26,18 +26,18 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "https://www.linkpicture.com/q/valentine-ga548cfe2d_1920.jpg",
     title: "CAKES",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "CUP CAKES",
+    img: "https://www.linkpicture.com/q/christmas-gc587322cf_1920_2.jpg",
+    title: "CARDS",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    title: "MITHAI",
+    img: "https://www.linkpicture.com/q/church-g4cc67dd6d_1920.jpg",
+    title: "DECORATIONS",
   },
 ];
 
