@@ -9,13 +9,23 @@ const Container = styled.div`
     justify-content: space-between;
 `;
 
+const Name = styled.h2`
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 40px;
+`
+
+
 const Products = () => {
   return (
+    <div>
+      <Name>POPULAR PRODUCTS</Name>
     <Container>
       {popularProducts.map((item) => (
         <Product item={item} key={item.id} />
       ))}
     </Container>
+    </div>
   );
 };
 
