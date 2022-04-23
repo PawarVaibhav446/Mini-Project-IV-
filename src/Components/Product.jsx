@@ -64,6 +64,10 @@ import {
       transform: scale(1.1);
     }
   `;
+
+//   const title = styled.div`
+//     align-items: center;
+// `
   
   const Product = ({ item }) => {
     return (
