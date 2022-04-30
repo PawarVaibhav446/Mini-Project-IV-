@@ -2,6 +2,7 @@ import express from "express"
 import cors from "cors"
 import mongoose from "mongoose"
 
+
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded())
@@ -13,6 +14,8 @@ mongoose.connect("mongodb://localhost:27017/Mini-Project", {
 }, () => {
     console.log("DB connected")
 })
+
+
 
 const userSchema = new mongoose.Schema({
     name: String,
@@ -37,6 +40,7 @@ app.post("/Login", (req, res)=> {
         }
     })
 }) 
+
 
 app.post("/Register", (req, res)=> {
     const { name, email, password} = req.body
