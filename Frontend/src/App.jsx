@@ -9,28 +9,24 @@ import { useState } from 'react';
 
 
 const App = () => {
-  <div className="App">
-      <Router>
-        <Routes>
-          <Route exact path="/">
-          </Route>
-          <Route path="/Login">
-          </Route>
-          <Route path="/Register">
-            <Register />
-          </Route>
-        </Routes>
-      </Router>
-    </div>
-
-
-  // return <Home />;
+    return <Home />;
   // return <Register />;
   // return <Login />
   // return <ProductList />
   // return <Product />
   // return <Cart />
-  
+
 };
+
+ {/* <Router>
+        <Routes>
+          <Route exact path="/" component={Home} >
+          </Route>
+          <Route path="/Login" component={Login}>
+          </Route>
+          <Route path="/Register" component={Register}>
+          </Route>
+        </Routes>
+      </Router> */}
 
 export default App;
